@@ -13,13 +13,7 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                sh 'ssh a905568s.beget.tech \'hostname\''
-                mkdir kaka1
-            }
-        }
-        stage("Second step") {
-            steps {
-                sh 'ssh a905568s.beget.tech \'uptime\''
+                sh 'ssh a905568s.beget.tech mkdir kaka1'
             }
         }
     }
