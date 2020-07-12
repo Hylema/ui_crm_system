@@ -14,6 +14,7 @@ pipeline {
         stage("First step") {
             steps {
                 sh 'ssh a905568s.beget.tech \'hostname\''
+                nano файл.txt
             }
         }
         stage("Second step") {
